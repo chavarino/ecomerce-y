@@ -1,0 +1,28 @@
+
+
+.dialog_cust{
+    overflow: auto;
+    display: block;
+    max-height: 900px;
+}
+
+
+@media (max-width:1025px) { 
+
+    .block2-pic .block2-btn {
+        bottom: 20px;
+    }
+
+}
+
+img  {
+    width: 100%!important;
+    height: auto!important;
+}
+@media (min-width:571px) { 
+    /*img {
+        height: 256px!important;
+        width: auto!important;
+    }*/
+
+}

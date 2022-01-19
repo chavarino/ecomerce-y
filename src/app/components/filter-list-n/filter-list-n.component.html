@@ -1,0 +1,12 @@
+<div class="mtext-102 cl2 p-b-15">
+    {{titulo}}
+</div>
+
+<ul>
+    <li *ngFor="let f of selectList"  class="p-b-6" (click)="selectFilter(f)">
+        <a   class="filter-link stext-106 trans-04" [ngClass]="{'filter-link-active': isSelectedFilter(f), 'filter-link-color': !isSelectedFilter(f)}">
+            {{f.titulo}}
+        </a>
+    </li>
+
+</ul>
